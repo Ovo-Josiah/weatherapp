@@ -136,7 +136,7 @@ class WeatherIcon extends StatelessWidget {
         const SizedBox(
           height: 15,
         ),
-        Image.asset(
+        Image.network(
           weather.imageURL.toString(),
           height: 150,
           width: 150,
